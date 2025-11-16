@@ -14,6 +14,7 @@
 // Git is a command-line tool, GitHub is a GUI
 
 // Git runs in the terminal: Finder/Applications/Utilities/Terminal
+// type 'pwd' to see which directory Git currently points to
 // to 'point' Git at the directory we want to be using, type
 // 'cd /Users/natelevinson/Desktop/git-basics' in terminal to
 // change the directory
@@ -26,6 +27,10 @@
 // to move files from the 'staging area' to the 'local repo'
 // type 'git log' to see list of commits, shows all changes and allows for
 // reversions to previous versions
+
+// type 'git checkout' followed by commit code for a previous commit to view
+// that version of the codebase
+// type 'git checkout main' to revert to the most recent version of the codebase
 
 
 function inflate (num, inf, years) {
