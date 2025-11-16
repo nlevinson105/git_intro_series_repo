@@ -21,9 +21,11 @@
 // type 'ls' to list all files in the directory
 // type 'git status' to see status of each file (e.g., modified, untracked, etc.)
 
-// type 'git add' to move files from 'working directory' to 'staging area'
+// type 'git add .' to move all files from 'working directory' to 'staging area'
 // type 'git commit -m' followed by a message in double quotes
 // to move files from the 'staging area' to the 'local repo'
+// type 'git log' to see list of commits, shows all changes and allows for
+// reversions to previous versions
 
 
 function inflate (num, inf, years) {
