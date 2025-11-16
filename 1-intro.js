@@ -19,7 +19,11 @@
 // change the directory
 // type 'git init' to initialize an empty repo in that directory
 // type 'ls' to list all files in the directory
-// type 'git status' to see status of each file (e.g., tracked, untracked, etc.)
+// type 'git status' to see status of each file (e.g., modified, untracked, etc.)
+
+// type 'git add' to move files from 'working directory' to 'staging area'
+// type 'git commit -m' followed by a message in double quotes
+// to move files from the 'staging area' to the 'local repo'
 
 
 function inflate (num, inf, years) {
