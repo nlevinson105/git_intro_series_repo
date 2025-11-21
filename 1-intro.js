@@ -60,6 +60,12 @@
 // git branch -M main
 // git push -u origin main
 
+// new branches can also be created on github and then
+// pulled to local git repo using 'git pull origin' followed by branch name
+// use github pull requests to merge branches on github
+// new files can also be added directly on github and then
+// pulled to local git repo using 'git pull origin' followed by branch name
+
 
 function inflate (num, inf, years) {
     const answer = num * (1 + inf) ** years;
