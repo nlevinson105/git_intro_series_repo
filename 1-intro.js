@@ -39,7 +39,12 @@
 
 // type 'git checkout -b' followed by branch name and a commit code
 // to create new branch
+// to merge a branch back into the master branch
+// type 'git checkout main' to revert to master branch, then type 'git merge'
+// followed by the name of the branch to be merged
 
+// the terminal represents the 'local git repo'
+// github represents the 'remote git repo' (see diagram)
 
 
 
@@ -58,7 +63,4 @@ function sayHello (name) {
     console.log(`Hello ${name}!`);
 }
 
-sayHello('Nate');
-
-// to merge a branch back into the master branch
-// 
+sayHello('Nate'); 
