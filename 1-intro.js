@@ -46,6 +46,19 @@
 // the terminal represents the 'local git repo'
 // github represents the 'remote git repo' (see diagram)
 
+// to create a new git repo to be linked to github:
+// echo "# git_intro_series_repo" >> README.md
+// git init
+// git add README.md
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/nlevinson105/git_intro_series_repo.git
+// git push -u origin main
+
+// to link an exisitng git repo to github:
+// git remote add origin https://github.com/nlevinson105/git_intro_series_repo.git
+// git branch -M main
+// git push -u origin main
 
 
 function inflate (num, inf, years) {
