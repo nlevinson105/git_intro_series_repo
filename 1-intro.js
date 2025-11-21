@@ -32,6 +32,16 @@
 // that version of the codebase
 // type 'git checkout main' to revert to the most recent version of the codebase
 
+// master branch contains all commits for the 'main' file
+// other branches can be added off of the master branch that allows users to commit
+// new versions of the code without changing the master branch
+// the other branches can be merged into the master branch
+
+// type 'git checkout -b' followed by branch name and a commit code
+// to create new branch
+
+
+
 
 function inflate (num, inf, years) {
     const answer = num * (1 + inf) ** years;
