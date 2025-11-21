@@ -29,3 +29,13 @@ function inflate (num, inf, years) {
 
 console.log(inflate(10, 0.03, 1));
 
+
+// this is a new function
+function sayHello (name) {
+    console.log(`Hello ${name}!`);
+}
+
+sayHello('Nate');
+
+// to merge a branch back into the master branch
+// 
