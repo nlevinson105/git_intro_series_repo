@@ -52,3 +52,13 @@ console.log(inflate(10, 0.03, 2));
 
 console.log(inflate(10000, 0.07, 30));
 
+
+// this is a new function
+function sayHello (name) {
+    console.log(`Hello ${name}!`);
+}
+
+sayHello('Nate');
+
+// to merge a branch back into the master branch
+// 
