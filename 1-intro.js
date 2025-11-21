@@ -38,5 +38,7 @@ function inflate (num, inf, years) {
     return answer.toFixed(2);
 }
 
-console.log(inflate(10, 0.03, 1));
+console.log(inflate(10, 0.03, 2));
+
+console.log(inflate(10000, 0.07, 30));
 
